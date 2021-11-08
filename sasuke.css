@@ -1,0 +1,103 @@
+@charset "UTF=8";
+
+header{
+    background-image: url(imagens-sasuke/e15c52c96fd4f37d1432b3e489858c70.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top center;
+    min-height: 300px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.575);
+}
+
+nav{
+   text-align: center;
+   padding-top: 15px;
+    
+}
+
+nav > a {
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    transition: 0.5s;
+}
+nav a:hover{
+    text-shadow: 0px 0px 8px black;
+    color: white;
+    text-decoration: underline;
+}
+nav a#naruto:hover{
+    text-shadow: 0px 0px 8px black;
+    color: rgb(226, 186, 8);
+    text-decoration: underline;
+}
+nav a#sasuke:hover{
+    text-shadow: 0px 0px 8px black;
+    color: rgb(71, 5, 116);
+    text-decoration: underline;
+}
+nav a#sakura:hover{
+    text-shadow: 0px 0px 8px black;
+    color: #E2798B;
+    text-decoration: underline;
+}
+
+main img#titulo{
+    width:50%;
+    margin: auto;
+    display: block;
+}
+
+
+.evolucao-charingan{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.596);
+   
+    
+}
+
+div#video{
+    position: relative;
+    padding-bottom: 56.5%;
+    margin-top: 30px;
+}
+video{
+    
+    border-radius: 20px;
+    position: absolute;
+    width:100%;
+    height:100%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.596);
+}
+
+
+ul{
+    margin-top: 30px;
+    text-align: justify;
+}
+ul > li{
+    
+    text-align: justify;
+    display: inline-block;
+   
+}
+
+ul::after{
+    
+    content:'';
+    display: inline-block;
+    width: 100%;
+}
+
+li  img {
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.596);
+}
+
+strong{
+    color: rgb(71, 5, 116);
+}
